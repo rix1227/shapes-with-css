@@ -1,0 +1,52 @@
+body{
+    background-color: brown;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.moon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 #ffde59;
+    margin: 5rem 5rem 5rem 5rem;
+
+}
+
+.play{
+    
+    text-align: right;
+    border-top: 50px solid transparent;
+    border-left: 100px solid rgb(97, 199, 97);
+    border-bottom: 50px solid transparent;
+    margin: 5rem 5rem 5rem 5rem;
+
+}
+
+.check{
+    
+    width: 19px;
+    height: 33px;
+    border: 10px solid greenyellow;
+    border-left: 0 ;
+    border-top: 0 ;
+    transform: rotate(45deg);
+    margin: 8rem 5rem 5rem 5rem;
+   
+
+}
+
+.trapecio{
+    border-bottom: 40px solid gray;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    width: 40px;
+    margin: 5rem 5rem 5rem 5rem;
+}
+
